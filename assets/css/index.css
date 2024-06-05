@@ -27,3 +27,8 @@ main{
 .btn-entrar:hover{
     background-color: #eecd95;
 }
+
+#LoginRegistro{
+    position: relative;
+    top: -250px;
+}

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    
 
 html, body {
     height: 100%;
@@ -34,11 +35,12 @@ main{
     top: -250px;
 }
 .text-overlay {
+    font-family: 'inter', sans-serif;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 2em;
+    font-size: 64px;
     pointer-events: none; /* Para garantir que o texto não interfira em cliques na imagem */
 }

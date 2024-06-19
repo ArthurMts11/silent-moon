@@ -1,46 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-    
 
 html, body {
     height: 100%;
 }
 
-main{
-    background-color: #7680FC;
-    height: 100%;
+main {
+  background-color: #7680fc;
+  height: 100%;
 }
 
-.main-2{
-    /* background-image: url("../img/teste1.png");
-    background-repeat: no-repeat; */
-    width: 100vw;
-    position: relative;
+.logo {
+  /* width: clamp(100px, 2vw, 4.5rem);
+  height: auto; */
+  display: block;
+  max-width: 100%;
 }
 
-.btn-entrar{
-    border-radius: 38px;
-    font-family: 'inter', sans-serif;
-    background-color: #FFDB9D;
-    width: 10%;
-    min-width: 10%;
+.div-back {
+  width: 100vw;
+  position: relative;
 }
 
-.btn-entrar:hover{
-    background-color: #eecd95;
+.btn-logar {
+  border-radius: 38px;
+  background-color: #ffdb9d;
+  width: max-content;
+  min-width: max-content;
+  font-size: 16px;
 }
 
+.btn-logar span {
+  padding-left: 3%;
+  padding-right: 3%;
+}
 
-#imgbage{
-    position: relative;
-    top: -250px;
+.btn-logar:hover {
+  background-color: #eecd95;
+}
+
+.div-base {
+  top: 63%;
+  position: absolute;
+}
+
+#img-base {
+  position: relative;
+  /* display: block; */
 }
 .text-overlay {
-    font-family: 'inter', sans-serif;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 64px;
+    font-size: 2em;
     pointer-events: none; /* Para garantir que o texto não interfira em cliques na imagem */
 }
